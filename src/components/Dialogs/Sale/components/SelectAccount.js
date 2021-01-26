@@ -22,7 +22,7 @@ export default function SelectClient(props) {
         setData(result.data);
       }
       fetchData()
-    });
+    },[setData]);
   
   
     return(

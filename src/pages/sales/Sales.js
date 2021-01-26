@@ -29,7 +29,7 @@ export default function Sales(props) {
       setData(result.data);
     }
     fetchData()
-  });
+  },[setData]);
 
   return (
     <>

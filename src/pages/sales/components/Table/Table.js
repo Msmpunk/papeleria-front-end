@@ -6,17 +6,17 @@ import {
   TableBody,
   TableCell,
 } from "@material-ui/core";
-// import useStyles from "../../styles";
 
 const keyTable = [
   {
-    name: 'PRECIO UNITARIO'
+    name: 'NUMERO VENTA'
   },
+
   {
     name: 'CANTIDAD'
   },
   {
-    name: 'NUMERO VENTA'
+    name: 'PRECIO UNITARIO'
   },
   {
     name: 'ID CLIENTE'
@@ -39,11 +39,11 @@ export default function TableComponent({ data }) {
         
         {data ? data.map(({ id_producto, precio_unitario, cantidad, numero_venta, id_cliente, fecha_venta }) => (
           <TableRow key={id_producto}>
-            <TableCell className="pl-3 fw-normal">{precio_unitario}</TableCell>
-            <TableCell>{cantidad}</TableCell>
             <TableCell>{numero_venta}</TableCell>
+            <TableCell>{cantidad}</TableCell>
+            <TableCell className="pl-3 fw-normal"> ${precio_unitario}</TableCell>
             <TableCell>{id_cliente}</TableCell>
-            <TableCell>{fecha_venta}</TableCell>
+            <TableCell>{fecha_venta.substring(0,10)}</TableCell>
           </TableRow>
         )) : []
         }

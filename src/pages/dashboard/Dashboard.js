@@ -21,7 +21,7 @@ export default function Dashboard(props) {
       setData(result.data);
     }
     fetchData()
-  });
+  },[setData]);
 
   return (
     <>

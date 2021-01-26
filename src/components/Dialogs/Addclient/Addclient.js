@@ -97,7 +97,7 @@ export default function AddClient(props){
                                 handleChange={handleChange}
                                 name={'razon_social'}
                                 value={dataForm.razon_social}
-                                label={'razon_social'}
+                                label={'Razon Social'}
                                 isRequired={true}
                                 adornment={''}
                                 />
@@ -107,7 +107,7 @@ export default function AddClient(props){
                                 handleChange={handleChange}
                                 name={'calle'}
                                 value={dataForm.calle}
-                                label={'calle'}
+                                label={'Calle'}
                                 isRequired={true}
                                 adornment={''}
                                 />
@@ -115,7 +115,7 @@ export default function AddClient(props){
                                 handleChange={handleChange}
                                 name={'numero'}
                                 value={dataForm.numero}
-                                label={'numero'}
+                                label={'Numero'}
                                 isRequired={true}
                                 adornment={''}
                                 />
@@ -125,7 +125,7 @@ export default function AddClient(props){
                                 handleChange={handleChange}
                                 name={'colonia'}
                                 value={dataForm.colonia}
-                                label={'colonia'}
+                                label={'Colonia'}
                                 isRequired={true}
                                 adornment={''}
                                 />
@@ -133,7 +133,7 @@ export default function AddClient(props){
                                 handleChange={handleChange}
                                 name={'estado'}
                                 value={dataForm.estado}
-                                label={'estado'}
+                                label={'Estado'}
                                 isRequired={true}
                                 adornment={''}
                                 />
@@ -143,7 +143,7 @@ export default function AddClient(props){
                                 handleChange={handleChange}
                                 name={'codigo_postal'}
                                 value={dataForm.codigo_postal}
-                                label={'codigo_postal'}
+                                label={'Codigo Postal'}
                                 isRequired={true}
                                 adornment={''}
                                 />
@@ -151,7 +151,7 @@ export default function AddClient(props){
                                 handleChange={handleChange}
                                 name={'email'}
                                 value={dataForm.email}
-                                label={'email'}
+                                label={'Correo Electronico'}
                                 isRequired={true}
                                 adornment={''}
                                 />

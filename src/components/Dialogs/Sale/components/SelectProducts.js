@@ -22,7 +22,7 @@ export default function SelectProducts(props) {
         setData(result.data);
       }
       fetchData()
-    });
+    },[setData]);
   
   
     return(
