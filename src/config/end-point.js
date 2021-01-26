@@ -1,1 +1,1 @@
-export const url = 'http://localhost:4000/api/v1/'
+export const url = 'http://104.236.15.216:4000/api/v1/'
